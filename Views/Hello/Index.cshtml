@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Index</title>
+        <link rel="stylesheet" href="~/css/bootstrap.min.css"/>
+    </head>
+    <body>
+        <div class="container" style="border: solid 3px black; text-align: center;">
+            <form action='Results' method='post'>
+    
+                Name: <input type="text" name="fullname"><br><br>
+                Dojo Location:
+                    <select name='dojoLocation'>
+                    <option value='San Jose'>San Jose</option>
+                    <option value='Tulsa'>Tulsa</option>
+                     <option value='Seattle'>Seattle</option>
+                    </select>
+                    <br>
+                    <br>
+
+
+                Favorite Language:
+                    <select name='favoriteLanguage'>
+                        <option value='Python'>Python</option>
+                        <option value='Javascript'>Javascript</option>
+                        <option value='C#'>C#</option>
+                        <option value='Java'>Java</option>
+                        </select>
+                        <br>
+                        <br>
+
+                Commnent(optional): <textarea name='comments'></textarea>
+                        <br>
+
+                <input type='submit' value='Submit'>
+            </form>
+        </div>
+
+    </body>
+</html>
